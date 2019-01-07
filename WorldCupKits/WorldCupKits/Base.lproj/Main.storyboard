@@ -91,8 +91,12 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="FIFA World Cup Kits" id="qaK-Ge-TFr">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="L1J-fd-ltz"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="yOc-7B-tIy"/>
+                        <barButtonItem key="leftBarButtonItem" image="settings icon" id="L1J-fd-ltz">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="shopping cart icon" id="yOc-7B-tIy">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="375" height="900"/>
@@ -120,4 +124,8 @@
             <point key="canvasLocation" x="136.80000000000001" y="-564.46776611694156"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="settings icon" width="16" height="16"/>
+        <image name="shopping cart icon" width="16" height="16"/>
+    </resources>
 </document>
