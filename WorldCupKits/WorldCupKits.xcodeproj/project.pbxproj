@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E2779B4421DF69F300A1C5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4321DF69F300A1C5E1 /* AppDelegate.swift */; };
-		E2779B4621DF69F300A1C5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4521DF69F300A1C5E1 /* ViewController.swift */; };
+		E2779B4621DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */; };
 		E2779B4921DF69F300A1C5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2779B4721DF69F300A1C5E1 /* Main.storyboard */; };
 		E2779B4C21DF69F300A1C5E1 /* WorldCupKits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4A21DF69F300A1C5E1 /* WorldCupKits.xcdatamodeld */; };
 		E2779B4E21DF69F300A1C5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2779B4D21DF69F300A1C5E1 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		E2779B4021DF69F300A1C5E1 /* WorldCupKits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCupKits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2779B4321DF69F300A1C5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2779B4521DF69F300A1C5E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupKitsTableViewController.swift; sourceTree = "<group>"; };
 		E2779B4821DF69F300A1C5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2779B4B21DF69F300A1C5E1 /* WorldCupKits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldCupKits.xcdatamodel; sourceTree = "<group>"; };
 		E2779B4D21DF69F300A1C5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 				E2779B5921DF72CE00A1C5E1 /* View */,
 				E2779B5A21DF72D500A1C5E1 /* Controller */,
 				E2779B4321DF69F300A1C5E1 /* AppDelegate.swift */,
-				E2779B4521DF69F300A1C5E1 /* ViewController.swift */,
+				E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */,
 				E2779B4721DF69F300A1C5E1 /* Main.storyboard */,
 				E2779B4D21DF69F300A1C5E1 /* Assets.xcassets */,
 				E2779B4F21DF69F300A1C5E1 /* LaunchScreen.storyboard */,
@@ -163,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2779B4C21DF69F300A1C5E1 /* WorldCupKits.xcdatamodeld in Sources */,
-				E2779B4621DF69F300A1C5E1 /* ViewController.swift in Sources */,
+				E2779B4621DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift in Sources */,
 				E2779B4421DF69F300A1C5E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
