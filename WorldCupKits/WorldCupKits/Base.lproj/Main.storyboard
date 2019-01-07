@@ -90,7 +90,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="FIFA World Cup Kits" id="qaK-Ge-TFr"/>
+                    <navigationItem key="navigationItem" title="FIFA World Cup Kits" id="qaK-Ge-TFr">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="L1J-fd-ltz"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="yOc-7B-tIy"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <size key="freeformSize" width="375" height="900"/>
                 </viewController>
