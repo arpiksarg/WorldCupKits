@@ -99,18 +99,24 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="listactive" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-dz-Xsb">
-                                <rect key="frame" x="16" y="157" width="24" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="eGD-dz-Xsb" secondAttribute="height" multiplier="1:1" id="fJ8-HK-ToO"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="gridactive" translatesAutoresizingMaskIntoConstraints="NO" id="CUU-d5-b1E">
-                                <rect key="frame" x="50" y="157" width="24" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="CUU-d5-b1E" secondAttribute="height" multiplier="1:1" id="7zL-Ne-eXa"/>
-                                </constraints>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EoC-Cm-Hof">
+                                <rect key="frame" x="16" y="157" width="38" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="listactive" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-dz-Xsb">
+                                        <rect key="frame" x="0.0" y="0.0" width="14" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="eGD-dz-Xsb" secondAttribute="height" multiplier="1:1" id="fJ8-HK-ToO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gridactive" translatesAutoresizingMaskIntoConstraints="NO" id="CUU-d5-b1E">
+                                        <rect key="frame" x="24" y="0.0" width="14" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="CUU-d5-b1E" secondAttribute="height" multiplier="1:1" id="7zL-Ne-eXa"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
