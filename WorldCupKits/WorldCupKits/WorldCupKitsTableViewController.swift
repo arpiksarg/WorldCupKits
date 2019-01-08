@@ -10,13 +10,10 @@ import UIKit
 
 class WorldCupKitsTableViewController: UIViewController {
 
-    var searchController: UISearchController!
-    
+    @IBOutlet weak var collectionView: UICollectionView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        searchController = UISearchController(searchResultsController: nil)
-        self.navigationItem.searchController = searchController
         
     }
 
