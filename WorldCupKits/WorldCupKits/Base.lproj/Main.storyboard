@@ -51,7 +51,7 @@
                                                     <rect key="frame" x="20" y="40" width="174.66666666666666" height="147"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OjY-Ep-8Gs">
-                                                            <rect key="frame" x="0.0" y="0.0" width="114" height="123"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="114" height="147"/>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="HNN-lC-MoB">
                                                             <rect key="frame" x="133" y="0.0" width="41.666666666666657" height="114.33333333333333"/>
@@ -99,18 +99,14 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nwO-6v-Jpg">
-                                <rect key="frame" x="16" y="142" width="116" height="50"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="listactive" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-dz-Xsb">
+                                <rect key="frame" x="16" y="157" width="24" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eAI-cp-Jxa" userLabel="List View">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cgk-HK-qAC" userLabel="Grid View">
-                                        <rect key="frame" x="66" y="0.0" width="50" height="50"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gridactive" translatesAutoresizingMaskIntoConstraints="NO" id="CUU-d5-b1E">
+                                <rect key="frame" x="50" y="157" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -151,6 +147,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gridactive" width="14" height="12"/>
+        <image name="listactive" width="14" height="12"/>
         <image name="settings icon" width="16" height="16"/>
         <image name="shopping cart icon" width="16" height="16"/>
     </resources>
