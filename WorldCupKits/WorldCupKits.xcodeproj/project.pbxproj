@@ -64,7 +64,6 @@
 				E2779B5921DF72CE00A1C5E1 /* View */,
 				E2779B5A21DF72D500A1C5E1 /* Controller */,
 				E2779B4321DF69F300A1C5E1 /* AppDelegate.swift */,
-				E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */,
 				E2779B4721DF69F300A1C5E1 /* Main.storyboard */,
 				E2779B4D21DF69F300A1C5E1 /* Assets.xcassets */,
 				E2779B4F21DF69F300A1C5E1 /* LaunchScreen.storyboard */,
@@ -93,6 +92,7 @@
 		E2779B5A21DF72D500A1C5E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
