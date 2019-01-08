@@ -10,4 +10,12 @@ import UIKit
 
 class ItemDetailCell: UICollectionViewCell {
     
+    @IBOutlet weak var shirtImageView: UIImageView!
+    @IBOutlet weak var countryNameLabel: UILabel!
+    @IBOutlet weak var cityNameLabel: UILabel!
+    @IBOutlet weak var brandLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    @IBOutlet weak var addToCardButton: UIButton!
+    
 }

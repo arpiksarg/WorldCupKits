@@ -96,6 +96,14 @@
                                             <constraint firstAttribute="trailingMargin" secondItem="OV3-oi-oxO" secondAttribute="trailing" constant="12" id="eHJ-Tg-6gK"/>
                                             <constraint firstItem="Zne-S0-0rP" firstAttribute="top" secondItem="2R3-bO-Xis" secondAttribute="topMargin" constant="12" id="n61-IH-Y7y"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="addToCardButton" destination="OV3-oi-oxO" id="HRa-Gz-Lo4"/>
+                                            <outlet property="brandLabel" destination="fbX-gM-FoK" id="Gpa-cW-Ivl"/>
+                                            <outlet property="cityNameLabel" destination="pfZ-GS-co0" id="cAP-fD-hUi"/>
+                                            <outlet property="countryNameLabel" destination="kYK-1m-gpd" id="VRR-e7-6Kh"/>
+                                            <outlet property="priceLabel" destination="mG8-m6-IiN" id="vI5-jj-4B5"/>
+                                            <outlet property="shirtImageView" destination="OjY-Ep-8Gs" id="A2S-rS-swF"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
