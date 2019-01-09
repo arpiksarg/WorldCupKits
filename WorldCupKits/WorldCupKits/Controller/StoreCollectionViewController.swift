@@ -2,30 +2,27 @@
 //  ViewController.swift
 //  WorldCupKits
 //
-//  Created by Arpik Sargsyan on 1/4/19.
+//  Created by Arpik Sargsyan on 1/8/19.
 //  Copyright © 2019 Arpik Sargsyan. All rights reserved.
 //
 
 import UIKit
 
-class WorldCupKitsTableViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class StoreCollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! StoreCollectionViewCell
+        cell.shirtImageView.image = UIImage(named: "image_1")
+        return cell
     }
     
-    @IBOutlet weak var collectionView: UICollectionView!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        
     }
 }
-

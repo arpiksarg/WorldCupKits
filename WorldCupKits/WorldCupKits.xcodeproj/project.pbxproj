@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E224AA7A21E3724A0095EF9B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224AA7921E3724A0095EF9B /* Store.swift */; };
-		E224AA7E21E4A8DA0095EF9B /* ItemDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224AA7D21E4A8DA0095EF9B /* ItemDetailCell.swift */; };
+		E224AA7E21E4A8DA0095EF9B /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224AA7D21E4A8DA0095EF9B /* StoreCollectionViewCell.swift */; };
+		E224AA8021E4E79F0095EF9B /* StoreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E224AA7F21E4E79F0095EF9B /* StoreCollectionViewController.swift */; };
 		E2779B4421DF69F300A1C5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4321DF69F300A1C5E1 /* AppDelegate.swift */; };
-		E2779B4621DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */; };
 		E2779B4921DF69F300A1C5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2779B4721DF69F300A1C5E1 /* Main.storyboard */; };
 		E2779B4C21DF69F300A1C5E1 /* WorldCupKits.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2779B4A21DF69F300A1C5E1 /* WorldCupKits.xcdatamodeld */; };
 		E2779B4E21DF69F300A1C5E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2779B4D21DF69F300A1C5E1 /* Assets.xcassets */; };
@@ -19,10 +19,10 @@
 
 /* Begin PBXFileReference section */
 		E224AA7921E3724A0095EF9B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		E224AA7D21E4A8DA0095EF9B /* ItemDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailCell.swift; sourceTree = "<group>"; };
+		E224AA7D21E4A8DA0095EF9B /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		E224AA7F21E4E79F0095EF9B /* StoreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewController.swift; sourceTree = "<group>"; };
 		E2779B4021DF69F300A1C5E1 /* WorldCupKits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCupKits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2779B4321DF69F300A1C5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupKitsTableViewController.swift; sourceTree = "<group>"; };
 		E2779B4821DF69F300A1C5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2779B4B21DF69F300A1C5E1 /* WorldCupKits.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldCupKits.xcdatamodel; sourceTree = "<group>"; };
 		E2779B4D21DF69F300A1C5E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		E2779B5921DF72CE00A1C5E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E224AA7D21E4A8DA0095EF9B /* ItemDetailCell.swift */,
+				E224AA7D21E4A8DA0095EF9B /* StoreCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 		E2779B5A21DF72D500A1C5E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E2779B4521DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift */,
+				E224AA7F21E4E79F0095EF9B /* StoreCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E224AA8021E4E79F0095EF9B /* StoreCollectionViewController.swift in Sources */,
 				E2779B4C21DF69F300A1C5E1 /* WorldCupKits.xcdatamodeld in Sources */,
-				E2779B4621DF69F300A1C5E1 /* WorldCupKitsTableViewController.swift in Sources */,
-				E224AA7E21E4A8DA0095EF9B /* ItemDetailCell.swift in Sources */,
+				E224AA7E21E4A8DA0095EF9B /* StoreCollectionViewCell.swift in Sources */,
 				E2779B4421DF69F300A1C5E1 /* AppDelegate.swift in Sources */,
 				E224AA7A21E3724A0095EF9B /* Store.swift in Sources */,
 			);
