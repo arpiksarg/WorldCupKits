@@ -11,7 +11,7 @@ import UIKit
 class StoreCollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     var shirtStore: [Store] = [Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_1"),
-                               Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_2"),
+                               Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_1"),
                                Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_1"),
                                Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_1"),
                                Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_1"),
@@ -32,7 +32,7 @@ class StoreCollectionViewController: UIViewController, UICollectionViewDelegate,
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! StoreCollectionViewCell
-        cell.shirtImageView.image = UIImage(named: "image_1")
+        cell.shirtImageView.image = UIImage(named: shirtStore[indexPath.row].shirtImage)
         cell.brandLabel.text = shirtStore[indexPath.row].brand
         cell.cityNameLabel.text = shirtStore[indexPath.row].cityName
         cell.countryNameLabel.text = shirtStore[indexPath.row].countryName
