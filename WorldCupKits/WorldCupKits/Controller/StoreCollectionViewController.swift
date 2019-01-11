@@ -10,6 +10,8 @@ import UIKit
 
 class StoreCollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+   
     var shirtStore: [Store] = [Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_1"),
                                Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_2"),
                                Store(countryName: "Spain", cityName: "Barcelona", brand: "Nike", price: "200$", shirtImage: "image_2"),
